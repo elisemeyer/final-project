@@ -1,0 +1,139 @@
+body {
+	font-size: 100%;
+}
+
+header {
+	position: fixed;
+	width: 100%;
+	/*font-family: myFirstFont;*/
+	display: inline-block;
+	background-color: #D3D3D3;
+	top: 0px;
+	text-transform: uppercase;
+}
+
+ul {
+	float: left;
+	padding-left: 8px;
+}
+
+.social-icons {
+	width: 25px;
+	height: 25px;
+	text-align: center;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-top: 12px;
+}
+
+#social-icons {
+	display: inline-block;
+	float: right;
+	padding-right: 8px;
+}
+
+li {
+	display: inline-block;
+	margin-right: 15px;
+	margin-left: 15px; 
+}
+
+#home {
+	cursor: pointer;
+}
+
+#travel {
+	cursor: pointer;
+}
+
+#photography {
+	cursor: pointer;
+}
+
+#lifestyle {
+	cursor: pointer;
+}
+
+#portfolio {
+	cursor: pointer;
+}
+
+#aboutme {
+	cursor: pointer;
+}
+
+h1 {
+	font-family: myFirstFont;
+	font-size: 5em;
+	text-align: center;
+	margin-top: 100px;
+}
+
+#slideshow {
+	margin-right: 50px;
+	margin-left: 50px;
+	text-align: center;
+}
+
+.mySlides {
+	width: 100%;
+}
+
+#aboutmepic {
+	border-radius: 1000px;
+	width: 15em;
+	height: 15em;
+}
+
+h2 {
+	text-align: center;
+}
+
+.insta-box {
+	text-align: center;
+	margin: auto;
+	width: 80%;
+	border: 2px solid black;
+}
+
+.instapics {
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+}
+
+.imagesize {
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+}
+
+#allinstapics {
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+h3 {
+	font-family: myFirstFont;
+}
+
+footer {
+	bottom: 16px;
+	color: grey;
+	margin: auto;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+@font-face {
+	font-family: myFirstFont;
+    src: url(../fonts/lemonmilk.otf);
+}
+
+@font-face {
+	font-family: mySecondFont;
+    src: url(../fonts/greatvibes-regular.ttf);
+}

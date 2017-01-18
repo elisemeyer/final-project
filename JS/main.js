@@ -1,5 +1,5 @@
 $("#enterbutton").click(function(){
-   window.location.href='index.html';
+   window.location.href='home.html';
 })
 
 // Media Queries
