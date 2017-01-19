@@ -5,7 +5,7 @@ body {
 header {
 	position: fixed;
 	width: 100%;
-	/*font-family: myFirstFont;*/
+	font-family: myThirdFont;
 	display: inline-block;
 	background-color: #D3D3D3;
 	top: 0px;
@@ -63,7 +63,7 @@ li {
 }
 
 h1 {
-	font-family: myFirstFont;
+	font-family: myThirdFont;
 	font-size: 5em;
 	text-align: center;
 	margin-top: 100px;
@@ -88,4 +88,9 @@ footer {
 @font-face {
 	font-family: mySecondFont;
     src: url(../fonts/greatvibes-regular.ttf);
+}
+
+@font-face {
+	font-family: myThirdFont;
+	src: url(../fonts/toxtypewriter.ttf);
 }
